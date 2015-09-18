@@ -1,0 +1,133 @@
+Report :
+
+	Following is the report for various search techniques : Each of the case is mentioned at the beginning of the code which can be tested by un-commenting the single test case and commenting the rest of the test cases.
+======================================================================================================================
+IDS.py
+======================================================================================================================
+	
+Case 1 : ( Positive Test Case )
+	Iterative DLS
+	Iteration 0
+	Iteration 1
+	Iteration 2
+	Iteration 3
+	Iteration 4
+	Iteration 5
+	Iteration 6
+	There exists solution to this board
+	( 9 -> 11 ) ( 23 -> 9 ) ( 8 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) 
+	The number of nodes expanded 62
+	The running time is : 0.0110001564026
+
+Case 2: ( Positive Test Case )
+	Iterative DLS
+	Iteration 0
+	Iteration 1
+	Iteration 2
+	Iteration 3
+	Iteration 4
+	Iteration 5
+	Iteration 6
+	Iteration 7
+	Iteration 8
+	Iteration 9
+	There exists solution to this board
+	( 17 -> 19 ) ( 15 -> 17 ) ( 4 -> 16 ) ( 16 -> 18 ) ( 19 -> 17 ) ( 28 -> 16 ) ( 17 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 391
+	The running time is : 0.0499999523163
+
+Case 3: ( Positive Test Case )
+	Iterative DLS
+	Iteration 0
+	Iteration 1
+	Iteration 2
+	Iteration 3
+	Iteration 4
+	Iteration 5
+	Iteration 6
+	Iteration 7
+	Iteration 8
+	Iteration 9
+	Iteration 10
+	Iteration 11
+	There exists solution to this board
+	( 9 -> 11 ) ( 2 -> 10 ) ( 0 -> 2 ) ( 17 -> 5 ) ( 2 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) ( 16 -> 14 ) ( 3 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 43611
+	The running time is : 4.70000004768
+
+Case 4: ( Negative Test Case i.e No peg or reached end state without goal )
+	Iterative DLS
+	Iteration 0
+	Iteration 1
+	There exists no solution to this board
+
+	The number of nodes expanded 1
+	The running time is : 0.0
+
+
+======================================================================================================================
+Heursitic1.py
+======================================================================================================================
+
+Case 1: ( Positive Test Case )
+	A* Algorithm-Heuristic-1
+	There is a solution to this board
+	( 9 -> 11 ) ( 23 -> 9 ) ( 8 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) 
+	The number of nodes expanded 20
+	The running time is : 0.00500011444092
+	
+Case 2: ( Positive Test Case )
+	A* Algorithm-Heuristic-1
+	There is a solution to this board
+	( 17 -> 19 ) ( 15 -> 17 ) ( 28 -> 16 ) ( 16 -> 18 ) ( 19 -> 17 ) ( 4 -> 16 ) ( 17 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 49
+	The running time is : 0.0150001049042
+
+Case 3: ( Positive Test Case )
+	A* Algorithm-Heuristic-1
+	There is a solution to this board
+	( 9 -> 11 ) ( 2 -> 10 ) ( 0 -> 2 ) ( 17 -> 5 ) ( 2 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) ( 16 -> 14 ) ( 3 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 606
+	The running time is : 0.210999965668
+	
+Case 4: ( Negative Test Case i.e No peg or reached end state without goal )
+	A* Algorithm-Heuristic-1
+	There is no solution to this board
+
+	The number of nodes expanded 1
+	The running time is : 0.000999927520752
+
+
+======================================================================================================================
+Heursitic2.py
+======================================================================================================================
+
+Case 1: ( Positive Test Case )
+	A* Algorithm Heuristic-2
+	There is a solution to this board
+	( 9 -> 11 ) ( 23 -> 9 ) ( 8 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) 
+	The number of nodes expanded 17
+	The running time is : 0.00300002098083
+
+Case 2: ( Positive Test Case )
+	A* Algorithm Heuristic-2
+	There is a solution to this board
+	( 17 -> 19 ) ( 15 -> 17 ) ( 28 -> 16 ) ( 16 -> 18 ) ( 4 -> 16 ) ( 19 -> 17 ) ( 17 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 23
+	The running time is : 0.00499987602234
+
+Case 3: ( Positive Test Case )
+	A* Algorithm Heuristic-2
+	There is a solution to this board
+	( 9 -> 11 ) ( 2 -> 10 ) ( 0 -> 2 ) ( 17 -> 5 ) ( 2 -> 10 ) ( 11 -> 9 ) ( 4 -> 16 ) ( 16 -> 14 ) ( 3 -> 15 ) ( 14 -> 16 ) 
+	The number of nodes expanded 246
+	The running time is : 0.0490000247955
+
+Case 4: ( Negative Test Case i.e No peg or reached end state without goal )
+	A* Algorithm Heuristic-2
+	There is no solution to this board
+
+	The number of nodes expanded 1
+	The running time is : 0.0
+
+	
